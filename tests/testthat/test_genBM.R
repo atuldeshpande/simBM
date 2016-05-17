@@ -1,0 +1,10 @@
+context("generate BM")
+test_that("generate BM for", {
+  expect_lte(Norm(as.vector(t(genBM(3, 1, 1))) - c(-0.6264538,-0.4428105,-1.278439),2),.001)
+  expect_error(genBM(100, 1.01))
+  expect_error(genBM(100, 1,1.03))
+  expect_error(genBM(100.1, 1,1))
+  expect_error(genBM(100, 3))
+  expect_length(genBM(1000, 2),2000)
+  expect_length(genBM(1000, 1),1000)
+})

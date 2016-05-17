@@ -1,0 +1,30 @@
+---
+title: "simBM"
+author: "Atul Deshpande"
+date: "05/16/2016"
+output: html_document
+---
+
+This document gives examples of using the simBM package to generate and plot 1-D and 2-D brownian motion. 
+```{r, echo=FALSE}
+library(simBM)
+```
+For example, to generate a one-dimensional brownian motion of length 1000, we use the command
+
+```{r}
+a<-simBM(1000,1)
+```
+
+On the other hand, if we want to generate a two-dimensional brownian motion of length 500, we use the command
+
+```{r}
+b<-simBM(500,2)
+```
+
+Lastly, there is an option to 'seed' the brownian motion using a third argument. For example,
+
+```{r}
+b<-simBM(500,2,1011)
+```
+
+generates 2-D brownian motion after setting the random number generating seed to 1011.
