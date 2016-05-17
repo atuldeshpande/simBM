@@ -1,5 +1,5 @@
 *.Rhistory
 *.pdf
 simBM.Rcheck
-*.Rproj
 *.tar.gz
+.Rproj.user
