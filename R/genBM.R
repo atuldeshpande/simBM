@@ -8,6 +8,7 @@
 #' @return a numeric vector of stages of Brownian motion dimensions vector_size x dim
 #' @author Atul Deshpande
 #' @export
+#' @importFrom stats rnorm
 #' @examples
 #' genBM(3,1,1)
 #' genBM(300,2)

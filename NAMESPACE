@@ -3,6 +3,5 @@
 export(genBM)
 export(plotBM)
 export(simBM)
-importFrom("graphics", "plot")
-importFrom("stats", "rnorm")
-
+importFrom(graphics,plot)
+importFrom(stats,rnorm)
