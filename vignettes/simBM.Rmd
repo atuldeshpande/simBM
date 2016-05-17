@@ -24,7 +24,7 @@ b<-simBM(500,2)
 Lastly, there is an option to 'seed' the brownian motion using a third argument. For example,
 
 ```{r}
-b<-simBM(500,2,1011)
+b<-simBM(5000,2,1011)
 ```
 
 generates 2-D brownian motion after setting the random number generating seed to 1011.

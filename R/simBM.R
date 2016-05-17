@@ -9,12 +9,11 @@
 #' @param seed an integer value to seed the brownian motion. Default no seed
 #'  
 #' @export
-#' @return a numeric vector of stages of Brownian motion dimensions vector_size $$\times$$ dim
+#' @return a numeric vector of stages of Brownian motion dimensions vector_size x dim
 #' @author Atul Deshpande
 #' @examples
 #' simBM(3,1,1)
 #' simBM(300,2)
-
 simBM<- 
   function(vector_size,dim,seed){
   if (missing('seed'))

@@ -14,7 +14,7 @@ simBM(vector_size, dim, seed)
 \item{seed}{an integer value to seed the brownian motion. Default no seed}
 }
 \value{
-a numeric vector of stages of Brownian motion dimensions vector_size $$\times$$ dim
+a numeric vector of stages of Brownian motion dimensions vector_size x dim
 }
 \description{
 Generate and Plot Brownian Motion
