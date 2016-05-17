@@ -6,5 +6,6 @@ Date: 2016-05-13
 Author: Atul Deshpande
 Maintainer: Atul Deshpande <adeshpande4@wisc.edu>
 Description: This package generates and plots 1-D and 2-D Brownian Motion. An option of 'seeding' the random number generation is added if required.
+Suggests: pracma, testthat
 License: GPL-3
 RoxygenNote: 5.0.1

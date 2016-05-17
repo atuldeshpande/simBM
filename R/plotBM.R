@@ -2,9 +2,10 @@
 #'
 #' This function plots 1-D and 2-D Brownian motion
 #'
-#' @param vector a vector of real numbers representing points in brownian motion
+#' @param x a vector of real numbers representing points in brownian motion
 #' @param dim in {1,2} for the dimension of Brownian Motion
 #' @author Atul Deshpande
+#' @importFrom graphics plot
 #' @export
 plotBM <- function(x,dim){
   if (dim==2)

@@ -7,9 +7,9 @@
 plotBM(x, dim)
 }
 \arguments{
-\item{dim}{in {1,2} for the dimension of Brownian Motion}
+\item{x}{a vector of real numbers representing points in brownian motion}
 
-\item{vector}{a vector of real numbers representing points in brownian motion}
+\item{dim}{in {1,2} for the dimension of Brownian Motion}
 }
 \description{
 This function plots 1-D and 2-D Brownian motion
